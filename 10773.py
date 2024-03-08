@@ -1,15 +1,15 @@
 K = int(input())
 stack = []
-total_sum = 0
+ts = 0
 
 for i in range(K):
     num = int(input())
 
     if num == 0:
-        total_sum -= stack.pop()
+        ts -= stack.pop()
 
     else:
         stack.append(num)
-        total_sum += num
+        ts += num
 
-print(total_sum)
+print(ts)
