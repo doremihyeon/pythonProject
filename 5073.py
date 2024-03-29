@@ -11,7 +11,7 @@ while True:
     if a == b == c:
         print("Equilateral")
     elif 2 * max(a, b, c) >= a + b + c:
-        print("Invalid")
+        print("Invaild")
     elif a == b or b == c or a == c:
         print("Isosceles")
     else:

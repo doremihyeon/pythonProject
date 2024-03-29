@@ -3,7 +3,7 @@ import sys
 input = sys.stdin.readline
 x_lst = []
 y_lst = []
-for _ in range(int(input())) :
+for _ in range(int(input())):
     x, y = map(int, input().split())
     x_lst.append(x)
     y_lst.append(y)
