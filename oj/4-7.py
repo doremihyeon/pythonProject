@@ -1,5 +1,3 @@
-char = input().strip()
-index = 0
+char = input().split()
 
-for i in range(len(char)):
-    
+print(len(char))
