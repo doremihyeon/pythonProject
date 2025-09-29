@@ -1,8 +1,9 @@
 import sys
+sys.setrecursionlimit(10**6)
 input = sys.stdin.readline
 
 N, M = map(int, input().split())
-graph = [[]for _ in range(M+1)]
+graph = [[]for _ in range(N+1)]
 visited = [False] * (N+1)
 
 for _ in range(M):
