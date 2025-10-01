@@ -26,7 +26,7 @@ for num, cnt in freq.items():
     if cnt == max_count:
         candidates.append(num)
 
-candidates.sort()
+candidates.sort()      #이부분 아직 공부 X
 if len(candidates) > 1:
     mode = candidates[1]
 else:
